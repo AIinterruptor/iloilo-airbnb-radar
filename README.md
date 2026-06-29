@@ -25,4 +25,8 @@ Competitor pricing dashboard for short-term rentals near Festive Walk / SMDC Sty
 
 - **Scraper**: Python + Booking.com MCP
 - **Dashboard**: Static HTML + Chart.js (GitHub Pages)
-- **Automation**: Claude Code daily routine → GitHub Actions
+- **Automation**: Claude Code Remote daily routine (06:00 UTC / 14:00 PHT)
+
+## Pricing Note
+
+Prices show a rolling 30-day forward window (check-in ~30 days from scrape date, 2-night stay). Trends track how that forward price moves over time, not same-night comparisons.

@@ -3,4 +3,3 @@ __pycache__/
 .env
 *.log
 data/raw_booking_response.json
-__pycache__/

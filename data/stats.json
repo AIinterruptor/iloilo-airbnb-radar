@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T22:24:22.916703+00:00",
+  "generated": "2026-06-29T22:29:57.811432+00:00",
   "total_snapshots": 1,
   "date_range": {
     "first": "2026-06-29",
@@ -9,6 +9,7 @@
   "summary": [
     {
       "name": "One Lourdes Dormitel",
+      "property_id": "1411618",
       "tier": "budget",
       "stars": "2",
       "review_score": "8.2",
@@ -20,6 +21,7 @@
     },
     {
       "name": "Pallet Homes - Megaworld",
+      "property_id": "11373274",
       "tier": "direct_competitor",
       "stars": "",
       "review_score": "",
@@ -31,6 +33,7 @@
     },
     {
       "name": "GT Hotel Jaro",
+      "property_id": "3558116",
       "tier": "midrange",
       "stars": "",
       "review_score": "",
@@ -42,6 +45,7 @@
     },
     {
       "name": "MARY & NICK'S STYLE RESIDENCE Iloilo City",
+      "property_id": "15478355",
       "tier": "direct_competitor",
       "stars": "3",
       "review_score": "8.0",
@@ -53,6 +57,7 @@
     },
     {
       "name": "Injap Tower Hotel",
+      "property_id": "1108701",
       "tier": "midrange",
       "stars": "3",
       "review_score": "7.8",
@@ -64,6 +69,7 @@
     },
     {
       "name": "Hop Inn Hotel Iloilo",
+      "property_id": "12019279",
       "tier": "midrange",
       "stars": "3",
       "review_score": "8.2",
@@ -75,6 +81,7 @@
     },
     {
       "name": "Casa de Vera Iloilo SMDC Style Residences",
+      "property_id": "13802214",
       "tier": "direct_competitor",
       "stars": "3",
       "review_score": "9.4",
@@ -86,6 +93,7 @@
     },
     {
       "name": "Hotel Del Rio",
+      "property_id": "255114",
       "tier": "midrange",
       "stars": "3",
       "review_score": "8.5",
@@ -97,6 +105,7 @@
     },
     {
       "name": "Seda Atria Ilo-ilo",
+      "property_id": "1482909",
       "tier": "premium",
       "stars": "4",
       "review_score": "8.6",
@@ -108,6 +117,7 @@
     },
     {
       "name": "Belmont Hotel Iloilo",
+      "property_id": "15336137",
       "tier": "premium",
       "stars": "",
       "review_score": "",

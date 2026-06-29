@@ -254,7 +254,7 @@
     function renderTable(props) {
       const tbody = document.getElementById('tableBody');
       tbody.innerHTML = props.map(p => {
-        const change = statsData?.summary?.find(s => s.name === p.property_name);
+        const change = statsData?.summary?.find(s => s.property_id === p.property_id || s.name === p.property_name);
         let changeHtml = '<span class="price-same">—</span>';
         if (change?.price_change != null) {
           const cls = change.price_change > 0 ? 'price-up' : change.price_change < 0 ? 'price-down' : 'price-same';
@@ -347,13 +347,16 @@
         return;
       }
 
-      const properties = [...new Set(historyData.filter(r => r.tier === 'direct_competitor').map(r => r.property_name))];
+      const directProps = historyData.filter(r => r.tier === 'direct_competitor');
+      const propMap = new Map();
+      directProps.forEach(r => { if (r.property_id) propMap.set(r.property_id, r.property_name); });
+      const propIds = [...propMap.keys()];
       const palette = ['#4f8cff', '#f87171', '#34d399', '#fbbf24', '#a78bfa', '#fb923c'];
 
-      const datasets = properties.map((name, i) => ({
-        label: name,
+      const datasets = propIds.map((pid, i) => ({
+        label: propMap.get(pid) || pid,
         data: dates.map(d => {
-          const row = historyData.find(r => r.date === d && r.property_name === name);
+          const row = historyData.find(r => r.date === d && r.property_id === pid);
           return row ? parseFloat(row.price_per_night) : null;
         }),
         borderColor: palette[i % palette.length],

@@ -126,31 +126,32 @@ def compute_stats():
         return
 
     dates = sorted(set(r["date"] for r in all_rows))
-    properties = sorted(set(r["property_name"] for r in all_rows))
+    property_ids = sorted(set(r["property_id"] for r in all_rows if r["property_id"]))
 
     by_property = {}
     for row in all_rows:
-        name = row["property_name"]
-        if name not in by_property:
-            by_property[name] = []
-        by_property[name].append(row)
+        pid = row.get("property_id") or row["property_name"]
+        if pid not in by_property:
+            by_property[pid] = []
+        by_property[pid].append(row)
 
     stats = {
         "generated": datetime.now(timezone.utc).isoformat(),
         "total_snapshots": len(dates),
         "date_range": {"first": dates[0], "last": dates[-1]},
-        "properties_tracked": len(properties),
+        "properties_tracked": len(property_ids),
         "summary": []
     }
 
-    for name, rows in by_property.items():
+    for pid, rows in by_property.items():
         prices = [float(r["price_per_night"]) for r in rows if r["price_per_night"]]
         if not prices:
             continue
 
         latest = rows[-1]
         entry = {
-            "name": name,
+            "name": latest["property_name"],
+            "property_id": pid,
             "tier": latest.get("tier", "unknown"),
             "stars": latest.get("stars", ""),
             "review_score": latest.get("review_score", ""),
