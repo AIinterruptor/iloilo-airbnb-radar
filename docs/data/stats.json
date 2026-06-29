@@ -1,0 +1,121 @@
+{
+  "generated": "2026-06-29T22:24:22.916703+00:00",
+  "total_snapshots": 1,
+  "date_range": {
+    "first": "2026-06-29",
+    "last": "2026-06-29"
+  },
+  "properties_tracked": 10,
+  "summary": [
+    {
+      "name": "One Lourdes Dormitel",
+      "tier": "budget",
+      "stars": "2",
+      "review_score": "8.2",
+      "current_price": 982.14,
+      "min_price": 982.14,
+      "max_price": 982.14,
+      "avg_price": 982.14,
+      "data_points": 1
+    },
+    {
+      "name": "Pallet Homes - Megaworld",
+      "tier": "direct_competitor",
+      "stars": "",
+      "review_score": "",
+      "current_price": 1042.2,
+      "min_price": 1042.2,
+      "max_price": 1042.2,
+      "avg_price": 1042.2,
+      "data_points": 1
+    },
+    {
+      "name": "GT Hotel Jaro",
+      "tier": "midrange",
+      "stars": "",
+      "review_score": "",
+      "current_price": 1350.0,
+      "min_price": 1350.0,
+      "max_price": 1350.0,
+      "avg_price": 1350.0,
+      "data_points": 1
+    },
+    {
+      "name": "MARY & NICK'S STYLE RESIDENCE Iloilo City",
+      "tier": "direct_competitor",
+      "stars": "3",
+      "review_score": "8.0",
+      "current_price": 1487.5,
+      "min_price": 1487.5,
+      "max_price": 1487.5,
+      "avg_price": 1487.5,
+      "data_points": 1
+    },
+    {
+      "name": "Injap Tower Hotel",
+      "tier": "midrange",
+      "stars": "3",
+      "review_score": "7.8",
+      "current_price": 1719.73,
+      "min_price": 1719.73,
+      "max_price": 1719.73,
+      "avg_price": 1719.73,
+      "data_points": 1
+    },
+    {
+      "name": "Hop Inn Hotel Iloilo",
+      "tier": "midrange",
+      "stars": "3",
+      "review_score": "8.2",
+      "current_price": 1800.0,
+      "min_price": 1800.0,
+      "max_price": 1800.0,
+      "avg_price": 1800.0,
+      "data_points": 1
+    },
+    {
+      "name": "Casa de Vera Iloilo SMDC Style Residences",
+      "tier": "direct_competitor",
+      "stars": "3",
+      "review_score": "9.4",
+      "current_price": 1925.89,
+      "min_price": 1925.89,
+      "max_price": 1925.89,
+      "avg_price": 1925.89,
+      "data_points": 1
+    },
+    {
+      "name": "Hotel Del Rio",
+      "tier": "midrange",
+      "stars": "3",
+      "review_score": "8.5",
+      "current_price": 2200.0,
+      "min_price": 2200.0,
+      "max_price": 2200.0,
+      "avg_price": 2200.0,
+      "data_points": 1
+    },
+    {
+      "name": "Seda Atria Ilo-ilo",
+      "tier": "premium",
+      "stars": "4",
+      "review_score": "8.6",
+      "current_price": 3300.75,
+      "min_price": 3300.75,
+      "max_price": 3300.75,
+      "avg_price": 3300.75,
+      "data_points": 1
+    },
+    {
+      "name": "Belmont Hotel Iloilo",
+      "tier": "premium",
+      "stars": "",
+      "review_score": "",
+      "current_price": 3851.4,
+      "min_price": 3851.4,
+      "max_price": 3851.4,
+      "avg_price": 3851.4,
+      "data_points": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+date,property_name,property_id,price_per_night,price_per_stay,currency,stars,review_score,review_count,latitude,longitude,address,checkin_date,checkout_date,tier
+2026-06-29,Injap Tower Hotel,1108701,1719.73,3439.47,PHP,3,7.8,1599,10.714051,122.552732,"West Diversion Road, Mandurriao",2026-07-31,2026-08-02,midrange
+2026-06-29,Hop Inn Hotel Iloilo,12019279,1800.0,3600,PHP,3,8.2,381,10.707865,122.545542,"2 Donato Pison Avenue, Atria Park District",2026-07-31,2026-08-02,midrange
+2026-06-29,Hotel Del Rio,255114,2200.0,4400,PHP,3,8.5,184,10.70007,122.552164,"M.H. Del Pilar Street, Molo",2026-07-31,2026-08-02,midrange
+2026-06-29,Pallet Homes - Megaworld,11373274,1042.2,2084.4,PHP,,,,10.719647,122.551206,208 Villa Alegre Road,2026-07-31,2026-08-02,direct_competitor
+2026-06-29,Seda Atria Ilo-ilo,1482909,3300.75,6601.5,PHP,4,8.6,278,10.7077,122.548617,"Pison Avenue, Atria Park District, Mandurriao",2026-07-31,2026-08-02,premium
+2026-06-29,Belmont Hotel Iloilo,15336137,3851.4,7702.8,PHP,,,,10.713513,122.545422,Iloilo Business Park,2026-07-31,2026-08-02,premium
+2026-06-29,GT Hotel Jaro,3558116,1350.0,2700,PHP,,,,10.733207,122.559997,Mc Arthur Drive Tabuc Suba Jaro,2026-07-31,2026-08-02,midrange
+2026-06-29,Casa de Vera Iloilo SMDC Style Residences,13802214,1925.89,3851.78,PHP,3,9.4,30,10.715384,122.548984,SMDC Style Residences Tower B,2026-07-31,2026-08-02,direct_competitor
+2026-06-29,MARY & NICK'S STYLE RESIDENCE Iloilo City,15478355,1487.5,2975,PHP,3,8.0,6,10.715613,122.549087,SM Iloilo SMDC Style residences B1707,2026-07-31,2026-08-02,direct_competitor
+2026-06-29,One Lourdes Dormitel,1411618,982.14,1964.28,PHP,2,8.2,133,10.694307,122.563383,JTS Building Corner Ledesma Fuentes Street,2026-07-31,2026-08-02,budget

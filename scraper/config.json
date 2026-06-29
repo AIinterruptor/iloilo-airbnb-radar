@@ -1,0 +1,33 @@
+{
+  "search_params": {
+    "latitude": 10.7191,
+    "longitude": 122.5549,
+    "radius_km": 3,
+    "checkin_offset_days": 30,
+    "stay_nights": 2,
+    "adults": 2,
+    "rooms": 1,
+    "currency": "PHP",
+    "country_code": "ph",
+    "locale": "en-us"
+  },
+  "own_properties": [
+    {
+      "name": "9MNW Megaworld (PALLADIUM)",
+      "type": "condo",
+      "building": "The Palladium",
+      "airbnb_url": "https://airbnb.com/h/9mnwmegaworld"
+    },
+    {
+      "name": "SMDC Style Residences",
+      "type": "condo",
+      "building": "SMDC Style Residences",
+      "unit": "B030847"
+    }
+  ],
+  "competitor_tags": {
+    "direct": ["SMDC Style", "Megaworld", "Palladium", "Festive Walk"],
+    "nearby_hotels": ["Injap Tower", "Hop Inn", "Seda Atria", "Belmont", "Hotel Del Rio", "GT Hotel"],
+    "budget": ["One Lourdes", "Pallet Homes"]
+  }
+}
